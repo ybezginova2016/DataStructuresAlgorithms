@@ -5,7 +5,7 @@
 """
 graph = {}
 graph['you'] = ['alice', 'bob', 'claire']
-graph['bob'] = ['anja', 'saja']
+graph['bob'] = ['anja', 'sanja']
 graph['alice'] = ['peggy']
 graph['anja'] = []
 graph['yulia'] = []
