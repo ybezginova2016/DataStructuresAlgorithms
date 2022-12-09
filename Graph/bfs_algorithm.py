@@ -1,4 +1,6 @@
 """
+Breadth First Search (BFS)
+
 Implementing the algorithm
 Keep a queue of items
 Dequeue an item
@@ -12,7 +14,7 @@ If the queue is empty then END.
 # очереди (дека) используется функция deque:
 
 from collections import deque
-from graph import *
+from bfs_graph import *
 
 def person_is_seller(name):
     """If the name ends w. 'm' then seller"""
