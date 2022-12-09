@@ -37,3 +37,13 @@ def bfs_search(name):
     return False
 
 bfs_search('you')
+
+"""
+Run Time
+
+Searching each vertice (V) plus adding a person (Edge) to 
+a queue will take O(V+E), 
+where 
+V - number of nodes, 
+E - number of graph edges.
+"""
